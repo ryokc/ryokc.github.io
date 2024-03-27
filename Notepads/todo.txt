@@ -1,0 +1,26 @@
+confluence page
+
+pcb layout
+: trace widths for high current
+: replace select transistors
+: not all grounds on arduino have to be connected
+:
+
+isolation board:
+
+
+--------------------
+
+SMBUS battery management system
+: combine two parts into one
+: figure out how to read data
+: receive displays
+: 
+
+bridge before c1
+replace r1 with bridge
+
+
+------
+
+revised isolation board, added solder bridges

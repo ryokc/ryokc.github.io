@@ -1,0 +1,381 @@
+*{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: lowercase;
+}
+
+table{
+    margin-bottom: 24px;
+}
+
+p.contact{
+    text-align: center;
+
+}
+
+p.para{
+    text-align: center;
+    margin: 0 auto;
+    inline-size: 50%;
+    text-transform: none;
+}
+
+p.desc{
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    inline-size: 50%;
+    text-transform: none;
+}
+
+ul{
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    inline-size: 50%;
+    text-transform: none;
+}
+
+li{
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+p.blogdesc{
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 84px;
+    inline-size: 50%;
+    text-transform: none;
+}
+
+h1.top{
+    font-size: 32px;
+    text-align: center;
+}
+
+h1.list{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1.mid{
+    font-size: 24px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    inline-size: 50%;
+    text-transform: none;
+}
+
+h1.blogmid{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #cc5500;
+}
+
+a.top{
+    font-size: 32px;
+    color: white;
+}
+
+a.top:hover{
+    font-size: 32px;
+    color: #cc5500;
+}
+
+table.centerwich{
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    max-width: 375px;
+  }
+
+.projcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+.hide::-webkit-scrollbar {
+    display: none;
+}
+  
+.hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+hr.solid {
+    border-top: 2px solid white;
+    width: 50%;
+    margin-bottom: 18px;
+}
+
+a.page{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+.transition-fade{
+    opacity: 1;
+    transition: 1000ms;
+    transform-origin: bottom;
+}
+
+html.is-animating .transition-fade{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+html.is-leaving .transition-fade{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+.transition-s{
+    opacity: 1;
+    transition: 1000ms;
+    transition-delay: 500ms;
+    transform-origin: bottom;
+}
+
+html.is-animating .transition-s{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+html.is-leaving .transition-s{
+    opacity: 1;
+    transform: translateY(-750%);
+}
+
+.transition-sone{
+    opacity: 1;
+    transition: 1000ms;
+    transform-origin: bottom;
+}
+
+html.is-animating .transition-sone{
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+html.is-leaving .transition-sone{
+    opacity: 1;
+    transition-delay: 500ms;
+    transform: translateY(-25%);
+}
+
+
+
+
+
+.transition-fadetwo{
+    opacity: 1;
+    transition: 1000ms;
+    transform-origin: top;
+}
+
+html.is-animating .transition-fadetwo{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+html.is-leaving .transition-fadetwo{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.transition-fadetwoa{
+    opacity: 1;
+    transition: 1000ms;
+    transform-origin: top;
+}
+
+html.is-animating .transition-fadetwoa{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+html.is-leaving .transition-fadetwoa{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.transition-fadetwob{
+    opacity: 1;
+    transition: 1250ms;
+    transform-origin: top;
+}
+
+html.is-animating .transition-fadetwob{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+html.is-leaving .transition-fadetwob{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+.transition-fadetwoc{
+    opacity: 1;
+    transition: 1500ms;
+    transform-origin: top;
+}
+
+html.is-animating .transition-fadetwoc{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+html.is-leaving .transition-fadetwoc{
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+/* IMAGE */
+.image-container {
+    overflow-x: hidden;
+    /*max-width: 768px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - (1.5rem * (var(--per-view) - 1))) / var(--per-view));
+    grid-gap: 1.5rem;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+.image-wrapper > * {
+    aspect-ratio: 1 / 1;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .0rem;
+}
+/* IMAGE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    overflow: hidden;
+    color: #f2f2f2;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: orange;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
