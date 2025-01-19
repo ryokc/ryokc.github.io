@@ -25,6 +25,7 @@ p.para{
     margin: 0 auto;
     inline-size: 50%;
     text-transform: none;
+    max-width: 800px;
 }
 
 p.desc{
@@ -34,6 +35,7 @@ p.desc{
     margin-bottom: 12px;
     inline-size: 50%;
     text-transform: none;
+    max-width: 800px;
 }
 
 ul{
@@ -64,6 +66,18 @@ h1.top{
     text-align: center;
 }
 
+h1.subhead{
+    font-size: 24px;
+    text-align: center;
+    text-transform: none;
+}
+h1.minisubhead{
+    font-size: 16px;
+    text-align: center;
+    color: #cc5500;
+    text-transform: none;
+}
+
 h1.list{
     text-align: center;
     margin-top: 5px;
@@ -77,6 +91,7 @@ h1.mid{
     margin-bottom: 18px;
     inline-size: 50%;
     text-transform: none;
+    max-width: 800px;
 }
 
 h1.blogmid{
@@ -123,6 +138,7 @@ table.centerwich{
     margin-right: auto;
     width: 50%;
     height: auto;
+    max-width: 800px;
 }
 
 .footer {
@@ -148,6 +164,7 @@ hr.solid {
     border-top: 2px solid white;
     width: 50%;
     margin-bottom: 18px;
+    max-width: 800px;
 }
 
 a.page{
@@ -378,4 +395,17 @@ img {
       left: 0;
       transform: none;
     }
+  }
+
+
+  .outerDiv {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .innerDiv {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
   }
