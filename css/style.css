@@ -9,6 +9,7 @@
     font-style: normal;
     font-variant: normal;
     text-transform: lowercase;
+    scrollbar-width: none;
 }
 
 table{
@@ -152,6 +153,7 @@ table.centerwich{
 
 .hide::-webkit-scrollbar {
     display: none;
+    scrollbar-width: none;
 }
   
 .hide {
